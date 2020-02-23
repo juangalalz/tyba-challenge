@@ -16,8 +16,8 @@ $ npm start
 ```
 ## API
 | Uri  | Method  | Params  | Header |
-| ------------ | ------------ | ------------ | |
-|  /auth/sign-up | POST  | application/x-www-form-urlencoded: name, lastName, email, password  |  |
-|  /auth/login |  POST | query: email, password  |  |
+| ------------ | ------------ | ------------ | ------------ |
+|  /auth/sign-up | POST  | application/x-www-form-urlencoded: name, lastName, email, password  | - |
+|  /auth/login |  POST | query: email, password  | - |
 |  /api/users/restaurants | GET  | query: lat, lgn  | Authorization: Bearer {jwt} |
 | /api/transactions | GET | query : page (optional) | Authorization: Bearer {jwt} |
