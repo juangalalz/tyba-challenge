@@ -10,8 +10,8 @@
     "start": "npm run dist && npm run serve"
   },
   "keywords": [
-    "fabrics",
-    "textile"
+    "restaurants",
+    "challengs"
   ],
   "author": "Juan Carlos Galvis Alzate",
   "license": "ISC",
